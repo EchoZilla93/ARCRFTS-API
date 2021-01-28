@@ -1,0 +1,23 @@
+[
+  {
+    "id":"1",
+    "name":"Boeing",
+    "country":"USA",
+    "city":"Seattle, WA",
+    "description":"The Boeing Company is an American multinational corporation that designs, manufactures, and sells airplanes, rotorcraft, rockets, satellites, telecommunications equipment, and missiles worldwide. The company also provides leasing and product support services."
+  },
+  {
+    "id":"2",
+    "name":"Airbus",
+    "country":"France",
+    "city":"Toulouse",
+    "description":"Airbus SE is a European multinational aerospace corporation. The 'SE' in the name means it is a societas Europaea, which enables it to be registered as European rather than Dutch. As of 2019, Airbus is the world's largest airliner manufacturer and took the most airliner orders"
+  },
+  {
+    "id":"3",
+    "name":"McDonnell Douglas",
+    "country":"USA",
+    "city":" St. Louis County, Missouri",
+    "description":"McDonnell Douglas was a major American aerospace manufacturing corporation and defense contractor formed by the merger of McDonnell Aircraft and the Douglas Aircraft Company in 1967. Between then and its own merger with Boeing in 1997, it produced a number of well-known commercial and military aircraft such as the DC-10 airliner, the F-15 Eagle air superiority fighter, and F/A-18 Hornet multirole fighter."
+  }
+]
