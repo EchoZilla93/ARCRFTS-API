@@ -19,5 +19,33 @@
     "country":"USA",
     "city":" St. Louis County, Missouri",
     "description":"McDonnell Douglas was a major American aerospace manufacturing corporation and defense contractor formed by the merger of McDonnell Aircraft and the Douglas Aircraft Company in 1967. Between then and its own merger with Boeing in 1997, it produced a number of well-known commercial and military aircraft such as the DC-10 airliner, the F-15 Eagle air superiority fighter, and F/A-18 Hornet multirole fighter."
+  },
+  {
+    "id":"4",
+    "name":"Embraer",
+    "country":"Brazil",
+    "city":"São José dos Campos",
+    "description":"Brazilian aerospace conglomerate that produces commercial, military, executive and agricultural aircraft and provides aeronautical services."
+  },
+  {
+    "id":"5",
+    "name":"Antonov",
+    "country":"Ukraine",
+    "city":"Kyiv",
+    "description":"Antonov State Enterprise, formerly the Aeronautical Scientific-Technical Complex named Antonov, and earlier the Antonov Design Bureau, is a Ukrainian aircraft manufacturing and services company. Antonov's particular expertise is in the fields of very large aeroplanes and aeroplanes using unprepared runways. "
+  },
+  {
+    "id":"6",
+    "name":"Ilyushin",
+    "country":"Russia",
+    "city":"Moscow",
+    "description":"lyushin Design Bureau, is a former Soviet and now a Russian aircraft manufacturer and design bureau, founded in 1933 by Sergey Vladimirovich Ilyushin. "
+  },
+  {
+    "id":"7",
+    "name":"Tupolev",
+    "country":"Russia",
+    "city":"Moscow",
+    "description":"Russian aerospace design bureau that is a major producer of civilian passenger airliners and military bombers. As a Soviet agency, it developed the U.S.S.R.’s first commercial jetliner and the world’s first supersonic passenger jet."
   }
 ]
