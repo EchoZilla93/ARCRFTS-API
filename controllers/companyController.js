@@ -1,32 +1,37 @@
-const fs = require('fs');
-const companies = JSON.parse(fs.readFileSync(`${__dirname}/../data/companies.json`));
+const Companies = require('../model/companiesModel');
 
-exports.getAllCompanies = (req,res) => {
-  res.status(200)
-  .json({
-      status: 'sucsess',
-      results:companies.length,
-      data:{
-          companies
-      }
-  });
+exports.getAllCompanies = async (req,res) => {
+    try{
+        const companies = await Companies.find();
+        res.status(200)
+        .json({
+            status: 'sucsess',
+            results:companies.length,
+            data:{
+                companies
+            }
+        });
+    }catch(err){
+        res.status(404).json({
+            status:'fail',
+            message:err
+        })
+    }
 };
 
-exports.getCompanyById = (req,res) => {
-  const id = req.params.id * 1;
-  const company = companies.find(el => el.id === id);
-
-  if(id > companies.length) {
-      return res.status(404).json({
-          status:'fail',
-          message:'Invalid ID'
-      });
-  };
-  
-  res.status(200).json({
-      status:'success',
-      data:{
-          company
-      }
-  });
+exports.getCompanyById = async (req,res) => {
+ try{
+   const company = await Companies.findById(req.params.id);
+   res.status(200).json({
+       status:'success',
+       data:{
+           company
+       }
+   })
+ }catch(err){
+     res.status(404).json({
+         status:'fail',
+         message: `Invalid ID or : ${err}`
+     })
+ }
 };
